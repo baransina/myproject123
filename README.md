@@ -30,7 +30,7 @@ Hypothesis Testing: I performed three levels of statistical testing to validate 
 3. H3 (Market Category): Used a Chi-Square Test of Independence to see if "Overhyped" status is tied to specific genres.
    - Null: Overhyped games occur randomly regardless of genre.
 
-Machine Learning Methods
+Machine Learning Methods: 
 To move beyond basic statistics, I applied two Machine Learning methods:
 
    - Random Forest Classification: Used to predict if a game will be a "Hit" based on its Rating, Genre, and Platform.
