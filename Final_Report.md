@@ -98,13 +98,6 @@ A Random Forest Classifier was trained to predict whether a game becomes a comme
 
 **Figure 5: Feature Importance Scores from Random Forest.** The algorithmic priority calculations identify Platform as the most dominant predictor for predicting success, significantly outweighing the actual Quality Rating. This confirms that platform distribution channels and hardware ecosystems carry more weight than game quality.
 
-### 5.2 K-Means Clustering
-To remove human bias from the quadrant boundaries, an unsupervised K-Means Clustering routine was deployed across the dimensions of `Rating` and `Global_Sales` with an optimized cluster size of $k=3$.
-
-![K-Means Clustering Results](fig6.png)
-
-**Figure 6: K-Means Clustering spatial visualization.** The algorithm automatically maps data into three clean segments: "The Market Baseline" (standard average performers), "The Blockbuster Dynamic" (high sales, completely independent of rating), and "The Cult Classic Archetype" (high ratings, low sales). This unsupervised separation directly validates the structural exceptions proposed in Hypothesis 3.
-
 ---
 
 ## 6. Limitations & Future Work
